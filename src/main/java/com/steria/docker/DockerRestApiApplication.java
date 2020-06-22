@@ -13,6 +13,10 @@ public class DockerRestApiApplication {
 	public String getMsg() {
 		return "HI YOUR APPLICATION IS RUNNING NOW...";
 	}
+	@GetMapping("/info1")
+	public String getMsg1() {
+		return "HI YOUR APPLICATION IS RUNNING NOW...INFO_1";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DockerRestApiApplication.class, args);
