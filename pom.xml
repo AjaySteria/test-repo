@@ -50,7 +50,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			
-			<plugin>
+			<!-- this plugin is used to auto build and push image to dockerhub repository -->
+			
+			<!-- <plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
@@ -71,7 +73,8 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
+			
 		</plugins>
 		<finalName>docker-rest-api</finalName>
 	</build>
