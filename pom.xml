@@ -52,7 +52,7 @@
 			
 			<!-- this plugin is used to auto build and push image to dockerhub repository -->
 			
-			<!-- <plugin>
+			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
@@ -73,7 +73,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin> -->
+			</plugin>
 			
 		</plugins>
 		<finalName>docker-rest-api</finalName>
