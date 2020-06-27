@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("ajaydocker14/test-docker-repo")
+        app = docker.build("ajaydocker14/docker-test")
     }
 
     stage('Test image') {
