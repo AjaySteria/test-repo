@@ -57,7 +57,6 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<configuration>
-					<dockerHost>https://192.168.99.100:2376</dockerHost>
 					<repository>ajaydocker14/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
