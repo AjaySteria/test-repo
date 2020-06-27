@@ -11,11 +11,11 @@ public class DockerRestApiApplication {
 	
 	@GetMapping("/info")
 	public String getMsg() {
-		return "HI YOUR APPLICATION IS RUNNING NOW.......";
+		return "HI YOUR APPLICATION IS RUNNING NOW.......Test";
 	}
 	@GetMapping("/info1")
 	public String getMsg1() {
-		return "HI YOUR APPLICATION IS RUNNING NOW...INFO_1";
+		return "HI YOUR APPLICATION IS RUNNING NOW...INFO_1111111111";
 	}
 
 	public static void main(String[] args) {
