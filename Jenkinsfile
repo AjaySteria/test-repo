@@ -6,12 +6,6 @@ node {
 
         checkout scm
     }
-    
-    stage('Build Project') {
-            steps {
-                sh 'mvn -B -DskipTests clean package'
-            }
-        }
 
     stage('Build image') {
         /* This builds the actual image */
